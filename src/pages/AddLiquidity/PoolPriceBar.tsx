@@ -1,4 +1,4 @@
-import { Currency, Percent, Price } from 'kopernikusswap-sdk'
+import { Currency, Percent, Price } from 'columbusswap-sdk'
 import React, { useContext } from 'react'
 import { Text } from 'rebass'
 import { ThemeContext } from 'styled-components'

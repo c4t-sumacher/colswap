@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Pair, Token, Trade } from 'kopernikusswap-sdk'
+import { Currency, CurrencyAmount, Pair, Token, Trade } from 'columbusswap-sdk'
 import flatMap from 'lodash.flatmap'
 import { useMemo } from 'react'
 

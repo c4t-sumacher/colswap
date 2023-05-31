@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from 'kopernikusswap-sdk'
+import { Currency, ETHER, Token } from 'columbusswap-sdk'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
 

@@ -1,4 +1,4 @@
-import { Percent } from 'kopernikusswap-sdk'
+import { Percent } from 'columbusswap-sdk'
 import React from 'react'
 import { ONE_BIPS } from '../../constants'
 import { warningSeverity } from '../../utils/prices'

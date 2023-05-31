@@ -1,4 +1,4 @@
-import { currencyEquals, Trade } from 'kopernikusswap-sdk'
+import { currencyEquals, Trade } from 'columbusswap-sdk'
 import React, { useCallback, useMemo } from 'react'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,

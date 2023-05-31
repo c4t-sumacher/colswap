@@ -106,6 +106,6 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "kopernikusswap-sdk": "^1.0.0"
+    "columbusswap-sdk": "^1.0.0"
   }
 }

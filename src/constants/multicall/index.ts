@@ -1,4 +1,4 @@
-import { ChainId } from 'kopernikusswap-sdk'
+import { ChainId } from 'columbusswap-sdk'
 import MULTICALL_ABI from './abi.json'
 
 const MULTICALL_NETWORKS: { [chainId in ChainId]: string } = {
@@ -7,7 +7,7 @@ const MULTICALL_NETWORKS: { [chainId in ChainId]: string } = {
   [ChainId.KOVAN]: '0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A',
   [ChainId.RINKEBY]: '0x42Ad527de7d4e9d9d011aC45B31D8551f8Fe9821',
   [ChainId.GÖRLI]: '0x77dCa2C955b15e9dE4dbBCf1246B4B85b651e50e',
-  [ChainId.KOPERNIKUS]: '0x96B54Ea94A960f0A772F6bfa812eA1eD37949bEa'
+  [ChainId.COLUMBUS]: '0x349126A1534AB5733a6cE6cd08DA887fa241fCcA'
 }
 
 export { MULTICALL_ABI, MULTICALL_NETWORKS }

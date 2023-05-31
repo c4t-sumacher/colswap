@@ -1,9 +1,9 @@
-import { ChainId, JSBI, Percent, Token, WETH } from 'kopernikusswap-sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from 'columbusswap-sdk'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 
 import { fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
 
-export const ROUTER_ADDRESS = '0xe2a1C98D5f3386B1F59Bb894dC5B857435e99170'
+export const ROUTER_ADDRESS = '0xe3A4a62236368eb7D7260cF966d82951774d582b'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -23,7 +23,7 @@ const WETH_ONLY: ChainTokenList = {
   [ChainId.RINKEBY]: [WETH[ChainId.RINKEBY]],
   [ChainId.GÖRLI]: [WETH[ChainId.GÖRLI]],
   [ChainId.KOVAN]: [WETH[ChainId.KOVAN]],
-  [ChainId.KOPERNIKUS]: [WETH[ChainId.KOPERNIKUS]],
+  [ChainId.COLUMBUS]: [WETH[ChainId.COLUMBUS]],
 }
 
 // used to construct intermediary pairs for trading

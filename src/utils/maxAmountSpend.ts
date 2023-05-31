@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI } from 'kopernikusswap-sdk'
+import { CurrencyAmount, ETHER, JSBI } from 'columbusswap-sdk'
 import { MIN_ETH } from '../constants'
 
 /**

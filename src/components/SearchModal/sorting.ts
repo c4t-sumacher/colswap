@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from 'kopernikusswap-sdk'
+import { Token, TokenAmount } from 'columbusswap-sdk'
 import { useMemo } from 'react'
 import { useAllTokenBalances } from '../../state/wallet/hooks'
 

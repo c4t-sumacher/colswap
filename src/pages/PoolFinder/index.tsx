@@ -1,4 +1,4 @@
-import { Currency, ETHER, JSBI, TokenAmount } from 'kopernikusswap-sdk'
+import { Currency, ETHER, JSBI, TokenAmount } from 'columbusswap-sdk'
 import React, { useCallback, useEffect, useState } from 'react'
 import { Plus } from 'react-feather'
 import { Text } from 'rebass'

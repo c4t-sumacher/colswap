@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from 'kopernikusswap-sdk'
+import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from 'columbusswap-sdk'
 import { computeTradePriceBreakdown } from './prices'
 
 describe('prices', () => {

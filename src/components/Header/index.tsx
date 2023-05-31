@@ -1,4 +1,4 @@
-import { ChainId } from 'kopernikusswap-sdk'
+import { ChainId } from 'columbusswap-sdk'
 import React from 'react'
 import { isMobile } from 'react-device-detect'
 import { Text } from 'rebass'
@@ -132,7 +132,7 @@ const NETWORK_LABELS: { [chainId in ChainId]: string | null } = {
   [ChainId.ROPSTEN]: 'Ropsten',
   [ChainId.GÖRLI]: 'Görli',
   [ChainId.KOVAN]: 'Kovan',
-  [ChainId.KOPERNIKUS]: 'Kopernikus'
+  [ChainId.COLUMBUS]: 'Columbus'
 }
 
 export default function Header() {
